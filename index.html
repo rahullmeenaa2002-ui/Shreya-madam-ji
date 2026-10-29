@@ -1,0 +1,169 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<meta name="theme-color" content="#ffe7ef">
+<title>Shreya 💗 | Our Little World</title>
+<style>
+:root{--pink:#ff527b;--rose:#d82f60;--ink:#4b1830;--muted:#88576a;--cream:#fff8fa;--line:#f7c9d7;--shadow:0 18px 55px #b9476c20}
+*{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;background:radial-gradient(ellipse at top,#fff8fb 0,#ffe9f0 45%,#fff4f7 100%);color:var(--ink);font-family:ui-rounded,"Trebuchet MS",system-ui,sans-serif}
+a{color:inherit;text-decoration:none}.nav{position:sticky;top:0;z-index:5;background:#fff8f0d9;backdrop-filter:blur(14px);border-bottom:1px solid #f8d6e0}.navin{max-width:1100px;margin:auto;padding:13px 22px;display:flex;align-items:center;gap:18px}.brand{font-weight:900;font-size:1.2rem;color:#9d2448;margin-right:auto}.brand span{color:var(--pink)}.nav a:not(.brand){font-size:.9rem;color:#6e3348;padding:8px 10px;border-radius:20px}.nav a:hover{background:#ffe1e9}.music{border:0;background:#ffe2eb;border-radius:50%;width:38px;height:38px;font-size:1rem;cursor:pointer}
+section{scroll-margin-top:80px}.hero{min-height:76vh;display:grid;place-items:center;padding:60px 22px 80px;position:relative;overflow:hidden;background:linear-gradient(155deg,#fff6f8 4%,#ffdbe6 48%,#ffc7d9 100%)}.hero:before,.hero:after{content:"♡";position:absolute;color:#ff7197;font-size:10rem;opacity:.18;transform:rotate(-16deg)}.hero:before{left:4%;top:8%}.hero:after{right:5%;bottom:4%;font-size:13rem}.hero-inner{max-width:820px;text-align:center;position:relative;z-index:1}.eyebrow{display:inline-block;background:#ffffffa8;border:1px solid #fff;border-radius:100px;padding:8px 15px;font-size:.83rem;color:#a7355c;letter-spacing:.04em}.hero h1{font-size:clamp(2.6rem,8vw,5.4rem);line-height:1.02;margin:24px 0 12px;letter-spacing:-.05em}.hero h1 span{color:var(--rose)}.hero p{font-size:clamp(1rem,2.5vw,1.2rem);max-width:590px;line-height:1.7;color:#754359;margin:0 auto 28px}.btn{border:0;cursor:pointer;display:inline-flex;align-items:center;justify-content:center;gap:8px;border-radius:100px;background:linear-gradient(135deg,#ff6689,#e93868);color:white;font-weight:800;padding:13px 23px;box-shadow:0 10px 25px #e9386840;transition:.2s}.btn:hover{transform:translateY(-2px)}.btn.secondary{background:#fff3f7;color:#a52d54;border:1px solid #f8c4d4;box-shadow:none}.float{position:absolute;font-size:1.6rem;animation:float 4s ease-in-out infinite}.f1{left:15%;bottom:22%}.f2{right:16%;top:23%;animation-delay:1s}.f3{right:27%;bottom:15%;animation-delay:2s}@keyframes float{50%{transform:translateY(-14px) rotate(8deg)}}
+.wrap{max-width:1100px;margin:auto;padding:76px 22px}.section-head{text-align:center;margin-bottom:28px}.kicker{color:var(--rose);font-size:.8rem;font-weight:900;text-transform:uppercase;letter-spacing:.15em}.section-head h2{font-size:clamp(2rem,5vw,3rem);margin:8px 0}.section-head p{color:var(--muted);margin:0}.grid{display:grid;grid-template-columns:repeat(3,1fr);gap:18px}.card{background:#ffffffb8;border:1px solid #f8d2de;border-radius:24px;padding:22px;box-shadow:var(--shadow)}.story-card{min-height:160px}.story-icon{font-size:1.8rem}.card h3{margin:10px 0 7px}.card p{color:var(--muted);line-height:1.6;margin:0}.memories{background:#fff7fa;border-top:1px solid #fbe0e8;border-bottom:1px solid #fbe0e8}.photo-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:16px}.photo{min-height:220px;border-radius:22px;overflow:hidden;position:relative;background:linear-gradient(145deg,#ffd5e2,#fff0f5);border:1px solid #f5c8d7;display:flex;align-items:center;justify-content:center;text-align:center;color:#a74363}.photo img{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;display:none}.photo .placeholder{padding:20px}.photo strong{display:block;font-size:1.1rem;margin-top:7px}.photo small{display:block;margin-top:5px;color:#9b5c71}.photo input{position:absolute;inset:0;width:100%;height:100%;opacity:0;cursor:pointer;z-index:2}.photo .caption{position:absolute;bottom:0;left:0;right:0;padding:12px 14px;background:linear-gradient(transparent,#48182eb8);color:white;text-align:left;display:none;z-index:1}.photo.has-image img{display:block}.photo.has-image .placeholder{display:none}.photo.has-image .caption{display:block}.hint{text-align:center;color:#986477;font-size:.85rem;margin-top:16px}
+.quizbox{max-width:720px;margin:auto;background:#fff;border:1px solid #f4c9d7;border-radius:28px;padding:clamp(22px,5vw,38px);box-shadow:var(--shadow)}.progress{height:7px;background:#ffe4ec;border-radius:20px;overflow:hidden;margin-bottom:25px}.progress span{display:block;height:100%;background:var(--pink);width:0;transition:.3s}.qcount{font-size:.82rem;color:#a34c6a;font-weight:800}.quizbox h3{font-size:1.45rem;line-height:1.4;margin:12px 0 20px}.answers{display:grid;gap:10px}.answer{border:1px solid #f3ccda;background:#fff8fb;color:#6c3348;text-align:left;padding:14px 16px;border-radius:15px;cursor:pointer;font:inherit}.answer:hover,.answer.selected{background:#ffe2eb;border-color:#ff6a91}.quiz-controls{display:flex;justify-content:space-between;gap:12px;margin-top:22px}.quiz-result{text-align:center;padding:15px}.quiz-result .big{font-size:3.4rem}.surprise-box{max-width:760px;margin:auto;text-align:center;padding:35px 22px 42px;background:linear-gradient(145deg,#fff,#ffe8ef);border:1px solid #f4c4d5;border-radius:30px;box-shadow:var(--shadow)}.gift{font-size:7rem;filter:drop-shadow(0 8px 8px #b9476c22);cursor:pointer;display:inline-block;transition:.25s}.gift:hover{transform:rotate(-6deg) scale(1.06)}.hidden-message{display:none;margin:20px auto 0;max-width:560px;background:#fffafc;border:1px dashed #ee9bb5;border-radius:20px;padding:24px;line-height:1.8;color:#7b3c54}.hidden-message.show{display:block;animation:pop .4s ease}@keyframes pop{from{opacity:0;transform:scale(.96)}to{opacity:1;transform:scale(1)}}.letter{max-width:760px;margin:auto;background:#fffaf4;border:1px solid #f2d9ca;border-radius:8px 24px 8px 24px;padding:clamp(24px,5vw,44px);box-shadow:var(--shadow);position:relative;line-height:1.9;font-family:Georgia,serif;font-size:1.05rem}.letter:before{content:"💌";position:absolute;right:22px;top:-22px;font-size:2rem}.letter .sign{color:var(--rose);font-style:italic;font-size:1.3rem}.footer{text-align:center;padding:35px 20px 45px;color:#9d5a71;font-size:.9rem}.tiny{font-size:.8rem;color:#a26b7e}.toast{position:fixed;bottom:20px;left:50%;transform:translateX(-50%);background:#4b1830;color:white;padding:12px 18px;border-radius:99px;box-shadow:var(--shadow);display:none;z-index:10}.toast.show{display:block}
+@media(max-width:700px){.navin{gap:5px;padding:10px 12px;flex-wrap:wrap}.brand{font-size:1rem}.nav a:not(.brand){font-size:.76rem;padding:7px 6px}.music{width:32px;height:32px}.grid{grid-template-columns:1fr}.photo-grid{grid-template-columns:repeat(2,1fr)}.photo{min-height:170px}.wrap{padding:55px 16px}.hero{min-height:70vh}.hero:before{left:-10%;font-size:7rem}.hero:after{right:-10%;font-size:9rem}}
+@media(max-width:390px){.photo-grid{grid-template-columns:1fr}.photo{min-height:210px}}
+
+/* Animated multi-step welcome flow */
+body.locked{overflow:hidden}
+.intro-gate{position:fixed;inset:0;z-index:1000;display:grid;place-items:center;padding:22px;background:radial-gradient(circle at 20% 20%,#fff7fb 0,#ffe5ee 42%,#ffc8da 100%);transition:opacity .7s,visibility .7s;overflow:hidden}
+.intro-gate.leaving{opacity:0;visibility:hidden;pointer-events:none}
+.intro-gate:before,.intro-gate:after{content:"♡";position:absolute;color:#ff6c97;opacity:.22;font-size:clamp(8rem,24vw,18rem);animation:floaty 6s ease-in-out infinite}
+.intro-gate:before{top:-4%;left:-2%;transform:rotate(-18deg)}.intro-gate:after{right:-3%;bottom:-12%;animation-delay:1.5s}
+.intro-petal{position:absolute;bottom:-40px;font-size:22px;opacity:.65;animation:petal-rise linear infinite;pointer-events:none}
+@keyframes petal-rise{from{transform:translateY(0) rotate(0);opacity:0}15%{opacity:.7}to{transform:translateY(-115vh) rotate(260deg);opacity:0}}
+@keyframes floaty{50%{translate:0 -22px;rotate:8deg}}
+.intro-card{position:relative;z-index:2;width:min(560px,100%);text-align:center;background:#ffffffc9;border:1px solid #fff;border-radius:32px;padding:clamp(26px,6vw,48px);box-shadow:0 24px 90px #a9325c2b;backdrop-filter:blur(12px);animation:intro-pop .7s cubic-bezier(.2,.8,.2,1) both}
+@keyframes intro-pop{from{opacity:0;transform:translateY(20px) scale(.96)}to{opacity:1;transform:translateY(0) scale(1)}}
+.intro-step{display:none;animation:intro-pop .45s ease both}.intro-step.active{display:block}
+.intro-emoji{font-size:clamp(4rem,14vw,6rem);line-height:1.3;display:block;filter:drop-shadow(0 8px 10px #d64c7830);animation:bob 2.6s ease-in-out infinite}
+@keyframes bob{50%{transform:translateY(-8px) rotate(3deg)}}
+.intro-card h1,.intro-card h2{margin:12px 0;font-size:clamp(1.8rem,6vw,2.8rem);letter-spacing:-.04em;color:#65213c}.intro-card p{line-height:1.75;color:#885067;margin:10px auto 24px;max-width:410px}
+.intro-dots{display:flex;justify-content:center;gap:8px;margin:0 0 24px}.intro-dots span{width:8px;height:8px;border-radius:20px;background:#f4c5d4;transition:.3s}.intro-dots span.on{width:25px;background:#f34c7a}
+.intro-actions{display:flex;justify-content:center;gap:10px;flex-wrap:wrap}.intro-skip{border:0;background:transparent;color:#a05d76;padding:12px;cursor:pointer;font:inherit}
+.intro-typing{display:inline-block;border-right:2px solid #e74775;white-space:nowrap;overflow:hidden;max-width:100%;animation:typing 2.2s steps(24,end),blink .8s step-end infinite alternate}
+@keyframes typing{from{width:0}to{width:100%}}@keyframes blink{50%{border-color:transparent}}
+@media(prefers-reduced-motion:reduce){*,*:before,*:after{animation-duration:.01ms!important;animation-iteration-count:1!important;scroll-behavior:auto!important}}
+
+
+/* iPhone-friendly refinements */
+html{ -webkit-text-size-adjust:100%; }
+body{min-height:100vh;min-height:100dvh}
+.nav{padding-top:env(safe-area-inset-top)}
+.navin{padding-left:max(14px,env(safe-area-inset-left));padding-right:max(14px,env(safe-area-inset-right))}
+.hero{min-height:calc(82vh - env(safe-area-inset-top));min-height:calc(82dvh - env(safe-area-inset-top));padding-top:max(52px,env(safe-area-inset-top));padding-bottom:max(70px,env(safe-area-inset-bottom))}
+.wrap{padding-left:max(18px,env(safe-area-inset-left));padding-right:max(18px,env(safe-area-inset-right))}
+button,a,label{-webkit-tap-highlight-color:transparent;touch-action:manipulation}
+.btn,.answer,.music{min-height:44px}
+.photo input{font-size:16px}
+@supports (-webkit-touch-callout:none){.intro-gate{padding-top:max(22px,env(safe-area-inset-top));padding-bottom:max(22px,env(safe-area-inset-bottom))}}
+@media(max-width:430px){
+ .navin{display:flex;flex-wrap:nowrap;overflow-x:auto;gap:3px;scrollbar-width:none}
+ .navin::-webkit-scrollbar{display:none}
+ .brand{flex:0 0 auto;margin-right:5px}
+ .nav a:not(.brand){flex:0 0 auto;white-space:nowrap;font-size:.78rem;padding:8px 7px}
+ .music{flex:0 0 38px}
+ .hero h1{font-size:clamp(2.35rem,10vw,3.25rem)}
+ .intro-card{border-radius:26px;padding:27px 20px}
+ .photo-grid{grid-template-columns:repeat(2,minmax(0,1fr));gap:10px}
+ .photo{min-height:165px}
+ .quiz-controls .btn{padding:12px 16px}
+}
+
+</style>
+</head>
+<body class="locked">
+
+<div class="intro-gate" id="introGate" aria-label="Welcome steps">
+  <div class="intro-card">
+    <div class="intro-dots" aria-label="Step progress"><span class="on"></span><span></span><span></span></div>
+    <div class="intro-step active" data-step="0">
+      <span class="intro-emoji">💌</span>
+      <span class="eyebrow">A little note just for you</span>
+      <h1>Wait a second, Madam Ji…</h1>
+      <p>This tiny world has a few little surprises. No rushing — the fun starts before you even enter. 💗</p>
+      <div class="intro-actions"><button class="btn" data-next>Open your letter ✨</button></div>
+    </div>
+    <div class="intro-step" data-step="1">
+      <span class="intro-emoji">🗝️</span>
+      <h2>Your tiny key is here</h2>
+      <p>Three little things to remember: smile a little, tap around, and don't skip the gift. Ready, Shreya?</p>
+      <div class="intro-actions"><button class="btn secondary" data-prev>← Go back</button><button class="btn" data-next>I'm curious 💗</button></div>
+    </div>
+    <div class="intro-step" data-step="2">
+      <span class="intro-emoji">💖</span>
+      <h2>Okay, Madam Ji!</h2>
+      <p class="intro-typing">Your little world is waiting…</p>
+      <p>Take a breath, make yourself comfy, and let the cuteness begin.</p>
+      <div class="intro-actions"><button class="btn secondary" data-prev>One more look</button><button class="btn" id="enterWorld">Enter our little world →</button></div>
+    </div>
+    <button class="intro-skip" id="skipIntro">Skip intro</button>
+  </div>
+</div>
+
+<nav class="nav"><div class="navin">
+<a class="brand" href="#home">Shreya <span>♥</span></a>
+<a href="#story">Our Story</a><a href="#memories">Memories</a><a href="#questions">Questions</a><a href="#surprise">Surprise</a>
+<button class="music" id="musicBtn" aria-label="Toggle music" title="Toggle music">♫</button>
+</div></nav>
+<main>
+<section class="hero" id="home"><span class="float f1">♡</span><span class="float f2">💗</span><span class="float f3">✧</span>
+<div class="hero-inner"><span class="eyebrow">A tiny corner of the internet, just for you</span>
+<h1>Hey, Shreya!<br><span>Welcome to our little world, Madam Ji 💗</span></h1>
+<p>Madam Ji, some people make ordinary days feel special. This little website is a reminder that the smallest moments can become the sweetest memories.</p>
+<a class="btn" href="#story">Come on in <span>→</span></a>
+</div></section>
+<section class="wrap" id="story"><div class="section-head"><div class="kicker">Little things, big feelings</div><h2>Our Story, Madam Ji ✨</h2><p>A few chapters in a story that's still being written.</p></div>
+<div class="grid">
+<article class="card story-card"><div class="story-icon">💬</div><h3>The First Hello</h3><p>One little conversation, and suddenly there was a new reason to smile.</p></article>
+<article class="card story-card"><div class="story-icon">🌙</div><h3>Late-Night Talks</h3><p>Random topics, silly jokes, and chats that never felt long enough.</p></article>
+<article class="card story-card"><div class="story-icon">🌷</div><h3>The Little Things</h3><p>It's the tiny details, unexpected laughs, and thoughtful moments that matter.</p></article>
+</div><p class="hint">Psst… you can replace these lines with your own real memories before sharing.</p></section>
+<section class="memories" id="memories"><div class="wrap"><div class="section-head"><div class="kicker">Freeze the feeling</div><h2>Madam Ji's Memory Lane 📸</h2><p>Add your favourite photos to make this page yours.</p></div>
+<div class="photo-grid">
+<label class="photo"><input type="file" accept="image/*" aria-label="Upload first memory"><div class="placeholder">🌅<strong>Sunset moments</strong><small>Tap to add a photo</small></div><img alt="Your first memory"><div class="caption" contenteditable="true" spellcheck="false">Sunset moments 💗</div></label>
+<label class="photo"><input type="file" accept="image/*" aria-label="Upload second memory"><div class="placeholder">☕<strong>Coffee dates</strong><small>Tap to add a photo</small></div><img alt="Your second memory"><div class="caption" contenteditable="true" spellcheck="false">Coffee dates ☕</div></label>
+<label class="photo"><input type="file" accept="image/*" aria-label="Upload third memory"><div class="placeholder">🌸<strong>Little joys</strong><small>Tap to add a photo</small></div><img alt="Your third memory"><div class="caption" contenteditable="true" spellcheck="false">Little joys 🌸</div></label>
+<label class="photo"><input type="file" accept="image/*" aria-label="Upload fourth memory"><div class="placeholder">🫶<strong>Us being us</strong><small>Tap to add a photo</small></div><img alt="Your fourth memory"><div class="caption" contenteditable="true" spellcheck="false">Us being us 🫶</div></label>
+<label class="photo"><input type="file" accept="image/*" aria-label="Upload fifth memory"><div class="placeholder">💐<strong>A sweet surprise</strong><small>Tap to add a photo</small></div><img alt="Your fifth memory"><div class="caption" contenteditable="true" spellcheck="false">A sweet surprise 💐</div></label>
+<label class="photo"><input type="file" accept="image/*" aria-label="Upload sixth memory"><div class="placeholder">✨<strong>More to come</strong><small>Tap to add a photo</small></div><img alt="Your sixth memory"><div class="caption" contenteditable="true" spellcheck="false">More to come ✨</div></label>
+</div><p class="hint">Photos are previewed in your browser only; this page does not upload them anywhere.</p></div></section>
+<section class="wrap" id="questions"><div class="section-head"><div class="kicker">Just for fun</div><h2>Madam Ji's Tiny Quiz 💌</h2><p>No pressure, Madam Ji — no wrong answers, just a little bit of cute.</p></div>
+<div class="quizbox"><div class="progress"><span id="progress"></span></div><div id="quizArea"><div class="qcount" id="qcount">QUESTION 1 OF 4</div><h3 id="question">What's the best kind of day?</h3><div class="answers" id="answers"></div><div class="quiz-controls"><button class="btn secondary" id="prevBtn" disabled>← Back</button><button class="btn" id="nextBtn">Next →</button></div></div><div class="quiz-result" id="quizResult" hidden><div class="big">💖</div><h3>You're the main character, Madam Ji!</h3><p>Thanks for playing. Your prize is one extra reason to smile today.</p><button class="btn secondary" id="restartBtn">Play again ↻</button></div></div></section>
+<section class="memories" id="surprise"><div class="wrap"><div class="section-head"><div class="kicker">A little something</div><h2>Open When You're Smiling 🎁</h2><p>Okay, fine. You can open it now.</p></div>
+<div class="surprise-box"><div class="gift" id="gift" role="button" tabindex="0" aria-label="Open surprise">🎁</div><p><strong>Tap the gift to unwrap your surprise</strong></p><button class="btn" id="openGift">Open my surprise 💗</button>
+<div class="hidden-message" id="giftMessage"><h3>Surprise, Madam Ji! 🌷</h3><p>Madam Ji, here's your reminder: you deserve soft days, belly laughs, unexpected good news, and people who celebrate the real you. Keep being wonderfully you. 💗</p><p><strong>Today's tiny mission:</strong> smile at yourself in the mirror and do one thing that makes you happy.</p></div></div></div></section>
+<section class="wrap" id="letter"><div class="section-head"><div class="kicker">A note from the heart</div><h2>A Little Letter for Madam Ji 💌</h2></div><div class="letter"><p>Hey Madam Ji,</p><p>Madam Ji, this little corner was made to bring a smile to your face. Life gets busy, days fly by, and sometimes we forget to say the sweet things out loud.</p><p>So here's one: you're appreciated. The way you laugh, the little things you notice, and the energy you bring into a moment can make an ordinary day feel brighter.</p><p>May there always be more reasons to laugh, more memories to collect, and more tiny surprises waiting around the corner.</p><p class="sign">With a little extra love, 💗</p></div></section>
+</main><footer class="footer">Made with ♡ for Shreya, our favourite Madam Ji <div class="tiny">A private-by-design starter page · Your photos stay on your device unless you choose to share the file.</div></footer>
+<div class="toast" id="toast"></div>
+<script>
+
+// Intro journey: three small steps before the main website.
+(function(){
+ const gate=document.getElementById('introGate');
+ if(!gate)return;
+ let step=0;
+ const panels=[...gate.querySelectorAll('.intro-step')];
+ const dots=[...gate.querySelectorAll('.intro-dots span')];
+ function show(n){step=Math.max(0,Math.min(2,n));panels.forEach((p,i)=>p.classList.toggle('active',i===step));dots.forEach((d,i)=>d.classList.toggle('on',i<=step));}
+ gate.querySelectorAll('[data-next]').forEach(b=>b.addEventListener('click',()=>show(step+1)));
+ gate.querySelectorAll('[data-prev]').forEach(b=>b.addEventListener('click',()=>show(step-1)));
+ function enter(){gate.classList.add('leaving');document.body.classList.remove('locked');setTimeout(()=>gate.remove(),750);}
+ document.getElementById('enterWorld').addEventListener('click',enter);
+ document.getElementById('skipIntro').addEventListener('click',enter);
+ // Floating hearts/petals in the intro background.
+ for(let i=0;i<12;i++){const p=document.createElement('span');p.className='intro-petal';p.textContent=['♡','♥','✦','💗'][i%4];p.style.left=(Math.random()*100)+'%';p.style.animationDuration=(7+Math.random()*8)+'s';p.style.animationDelay=(-Math.random()*12)+'s';gate.appendChild(p);}
+})();
+
+const quiz=[
+{q:"What's the best kind of day?",a:["A cosy day with snacks 🍿","An unplanned little adventure 🌈","Laughing at absolutely nothing 😂","Honestly, all of these 💗"]},
+{q:"Pick a tiny happiness:",a:["A thoughtful message 💌","A favourite song on repeat 🎧","A beautiful sunset 🌅","Someone remembering the little things 🌷"]},
+{q:"Your ideal surprise is…",a:["A handwritten note ✍️","A cute photo memory 📸","A silly inside joke 😄","A mystery gift 🎁"]},
+{q:"Choose a motto for today:",a:["Be soft with yourself 🌸","Collect moments, not worries ✨","Make room for joy 💗","One step at a time 🌱"]}
+];
+let qi=0,selected=Array(quiz.length).fill(-1);
+const $=id=>document.getElementById(id);
+function renderQuiz(){ $('qcount').textContent=`QUESTION ${qi+1} OF ${quiz.length}`;$('question').textContent=quiz[qi].q;$('answers').innerHTML='';
+quiz[qi].a.forEach((a,i)=>{let b=document.createElement('button');b.className='answer'+(selected[qi]===i?' selected':'');b.textContent=a;b.onclick=()=>{selected[qi]=i;renderQuiz()};$('answers').appendChild(b)});
+$('progress').style.width=((qi+1)/quiz.length*100)+'%';$('prevBtn').disabled=qi===0;$('nextBtn').textContent=qi===quiz.length-1?'Finish 💗':'Next →';}
+$('prevBtn').onclick=()=>{if(qi>0){qi--;renderQuiz()}};
+$('nextBtn').onclick=()=>{if(qi<quiz.length-1){qi++;renderQuiz()}else{$('quizArea').hidden=true;$('quizResult').hidden=false}};
+$('restartBtn').onclick=()=>{qi=0;selected=Array(quiz.length).fill(-1);$('quizArea').hidden=false;$('quizResult').hidden=true;renderQuiz()};
+renderQuiz();
+document.querySelectorAll('.photo input').forEach(inp=>inp.addEventListener('change',e=>{const file=e.target.files[0];if(!file)return;if(!file.type.startsWith('image/'))return;const card=e.target.closest('.photo'),img=card.querySelector('img');img.src=URL.createObjectURL(file);card.classList.add('has-image');}));
+function openGift(){ $('giftMessage').classList.toggle('show');$('gift').textContent=$('giftMessage').classList.contains('show')?'💝':'🎁';if($('giftMessage').classList.contains('show')){for(let i=0;i<10;i++){let s=document.createElement('span');s.textContent=['💗','✨','💕'][i%3];s.style.cssText=`position:fixed;left:${Math.random()*100}%;top:${Math.random()*65}%;z-index:9;pointer-events:none;font-size:24px;animation:pop .7s ease`;document.body.appendChild(s);setTimeout(()=>s.remove(),900)}}}
+$('openGift').onclick=openGift;$('gift').onclick=openGift;$('gift').onkeydown=e=>{if(e.key==='Enter'||e.key===' '){e.preventDefault();openGift()}};
+let audioCtx=null,playing=false,oscillators=[];function toggleMusic(){if(playing){oscillators.forEach(o=>{try{o.stop()}catch(e){}});oscillators=[];playing=false;$('musicBtn').textContent='♫';toast('Music paused');return}try{audioCtx=new (window.AudioContext||window.webkitAudioContext)();const notes=[523.25,659.25,783.99,659.25];notes.forEach((freq,i)=>{const o=audioCtx.createOscillator(),g=audioCtx.createGain();o.type='sine';o.frequency.value=freq;g.gain.value=.025;o.connect(g);g.connect(audioCtx.destination);o.start();oscillators.push(o);});playing=true;$('musicBtn').textContent='♫♪';toast('Soft tones on — tap again to pause');}catch(e){toast('Audio is not available in this browser')}}$('musicBtn').onclick=toggleMusic;
+function toast(msg){const t=$('toast');t.textContent=msg;t.classList.add('show');setTimeout(()=>t.classList.remove('show'),2300)}
+</script></body></html>
